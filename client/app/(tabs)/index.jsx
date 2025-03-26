@@ -20,10 +20,7 @@ const Index = () => {
         <View style={styles.actionSection}>
           <ActionCard
             onPress={() => router.push('survey/home')} // Correct the navigation path
-            title="Fill the 
-            Form to 
-            identify 
-            the level"
+            title={"Fill the\nForm to\nidentify\nthe\nlevel"}
             imageSource={formImage}
             style={styles.formCard}
             imageStyle={styles.formImage}
@@ -121,6 +118,7 @@ const styles = StyleSheet.create({
   },
   activitySection: {
     marginTop: 15,
+    marginRight: 10,
   },
   navigationContainer: {
     marginTop: 45,
