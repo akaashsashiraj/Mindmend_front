@@ -39,7 +39,7 @@ const SUPPORT_TOPICS = [
   { 
     id: 7, 
     title: "Supporting Learning & Development", 
-    image: require("../../assets/images/at7.jpeg") 
+    image: require("../../assets/images/at4.jpeg") 
   },
   { 
     id: 8, 
